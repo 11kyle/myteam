@@ -1,6 +1,7 @@
 import { type NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
+import Layout from "~/components/layouts/layout";
 
 import { api } from "~/utils/api";
 
@@ -48,6 +49,7 @@ const Home: NextPage = () => {
           </p>
         </div>
       </main>
+      <Layout />
     </>
   );
 };
