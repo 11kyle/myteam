@@ -1,12 +1,16 @@
 import Banner from "../banner";
-import Clients from "../clients";
 import Footer from "../footer";
-import Team from "../team";
-import { Testimonials } from "../testimonials";
+import Navbar from "../navbar";
 
-export default function Layout() {
+interface Props {
+  children: React.ReactNode
+}
+
+export default function Layout({ children }: Props) {
   return (
     <>
+      <Navbar />
+      {children}
       <Banner />
       <Footer />
     </>

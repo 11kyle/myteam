@@ -5,8 +5,7 @@ const people = [
   {
     name: 'Nikita Marks',
     role: 'Founder & CEO',
-    imageUrl:
-      '/avatar-nikita.jpg',
+    imageUrl: '/avatar-nikita.jpg',
     twitterUrl: '#',
     linkedinUrl: '#',
   },
@@ -21,32 +20,28 @@ const people = [
   {
     name: 'Cruz Hamer',
     role: 'Co-founder & CTO',
-    imageUrl:
-      '/avatar-cruz.jpg',
+    imageUrl: '/avatar-cruz.jpg',
     twitterUrl: '#',
     linkedinUrl: '#',
   },
   {
     name: 'Drake Heaton',
     role: 'Business Development Lead',
-    imageUrl:
-      '/avatar-drake.jpg',
+    imageUrl: '/avatar-drake.jpg',
     twitterUrl: '#',
     linkedinUrl: '#',
   },
   {
     name: 'Griffin Wise',
     role: 'Lead Marketing',
-    imageUrl:
-      '/avatar-griffin.jpg',
+    imageUrl: '/avatar-griffin.jpg',
     twitterUrl: '#',
     linkedinUrl: '#',
   },
   {
     name: 'Aden Allan',
     role: 'Head of Taletn',
-    imageUrl:
-      '/avatar-aden.jpg',
+    imageUrl: '/avatar-aden.jpg',
     twitterUrl: '#',
     linkedinUrl: '#',
   },

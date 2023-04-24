@@ -52,11 +52,12 @@ export default function Clients() {
         </Heading>
         <div className="mx-auto mt-14 grid grid-cols-1 sm:grid-cols-5 gap-10 justify-items-center">
           {clients.map((item) => (
-            <div key={item.id} className="relative h-7 w-28">
+            <div key={item.id} className="relative">
               <Image 
                 src={item.imageSrc}
                 alt={item.imageAlt}
-                fill
+                width={112}
+                height={28}
               />
             </div>
           ))}
