@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Heading from "./heading";
 
 const clients = [
   {
@@ -45,10 +46,10 @@ export default function Clients() {
           </g>
         </svg>
       </div>
-      <div className="mx-auto max-w-5xl px-6 lg:px-8">
-        <h2 className="text-center text-3xl font-bold text-white">
-          Some of our clients
-        </h2>
+      <div className="mx-auto max-w-5xl px-6">
+        <Heading className="text-center">
+        Some of our clients
+        </Heading>
         <div className="mx-auto mt-14 grid grid-cols-1 sm:grid-cols-5 gap-10 justify-items-center">
           {clients.map((item) => (
             <div key={item.id} className="relative h-7 w-28">

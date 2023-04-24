@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Heading from "./heading"
 
 const people = [
   {
@@ -72,9 +73,11 @@ export default function Team() {
           </g>
         </svg>
       </div>
-      <div className="mx-auto max-w-6xl px-6 text-center lg:px-8">
+      <div className="mx-auto max-w-6xl px-6 text-center">
         <div className="mx-auto max-w-2xl">
-          <h2 className="text-3xl md:text-5xl font-bold text-white">Meet the directors</h2>
+          <Heading>
+          Meet the directors
+          </Heading>
         </div>
         <ul
           role="list"

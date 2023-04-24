@@ -11,7 +11,7 @@ export default function Banner() {
           </g>
         </svg>
       </div>
-      <div className="sm:w-4/5 flex flex-col sm:flex-row sm:justify-between items-center gap-y-6 mx-auto">
+      <div className="sm:w-4/5 max-w-5xl flex flex-col sm:flex-row sm:justify-between items-center gap-y-6 px-6 mx-auto">
         <div>
           <p className="font-bold text-2xl text-sacramento-state-green">
             Ready to get started?

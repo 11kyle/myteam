@@ -1,7 +1,9 @@
 import { type NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
+import { Features } from "~/components/features";
 import Layout from "~/components/layouts/layout";
+import { Testimonials } from "~/components/testimonials";
 
 import { api } from "~/utils/api";
 
@@ -26,6 +28,8 @@ const Home: NextPage = () => {
           </p>
         </div>
       </main>
+      <Features />
+      <Testimonials />
       <Layout />
     </>
   );

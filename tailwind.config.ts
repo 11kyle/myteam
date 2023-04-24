@@ -1,5 +1,7 @@
 import { type Config } from "tailwindcss";
 
+import { fontFamily } from 'tailwindcss/defaultTheme';
+
 export default {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
@@ -12,7 +14,10 @@ export default {
         'deep-jungle-green': 'rgb(0,64,71)',
         'sacramento-state-green': 'rgb(1,47,52)',
         'dark-green': 'rgb(0,37,41)'
-      }
+      },
+      // fontFamily: {
+      //   sans: ['var(--font-livvic)', ...fontFamily.sans],
+      // }
     },
   },
   plugins: [],
